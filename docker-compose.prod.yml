@@ -22,5 +22,5 @@ services:
     #     DISCORD_CLIENT_ID: ${DISCORD_CLIENT_ID} # discord client id
     #     DISCORD_CLIENT_SECRET: ${DISCORD_CLIENT_SECRET} # discord client secret
     ports:
-      - 3000:3000
+      - 4000:3000
     restart: unless-stopped
